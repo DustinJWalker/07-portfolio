@@ -4,28 +4,4 @@
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
-
-
-
-
-body {
-  margin: 0;
-}
-
-
-//nav bar section
-.nav-bar {
-  display: flex;
-  max-width: 100%;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-
-  background-color: #122066;
-  color: white;
-}
-
-.nav-items  {
-  list-style-type: none;
-
-}
+@import 'nav';
