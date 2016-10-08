@@ -1,25 +1,28 @@
 // main content
-.container  {
+
+.container {
   margin: 8rem;
 
-  background: papayawhip;
+  // background: papayawhip;
 }
 
-.main-content__grid  {
+.main-content__grid {
   display: flex;
   flex-direction: row;
 
   flex-basis: calc(100% / 2 - 8rem);
-  justify-content: space-around;
+  justify-content: space-between;
 
-
-
+  &:nth-of-type(2n) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
 }
 
-.title  {
+.title {
   text-align: center;
 }
 
-.grid-paragraph  {
+.grid-paragraph {
   text-align: center;
 }
