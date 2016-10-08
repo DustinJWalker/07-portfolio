@@ -1,0 +1,14 @@
+// footer
+.sticky-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #333;
+  // color: white;
+  overflow: auto;
+}
+
+
+.footer-links {
+  list-style-type: none;
+}
