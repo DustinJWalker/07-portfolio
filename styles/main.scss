@@ -1,11 +1,19 @@
 // main content
 .container  {
-  max-width: 100%;
+  margin: 8rem;
+
   background: papayawhip;
 }
 
 .main-content__grid  {
-  max-width: 65rem;
+  display: flex;
+  flex-direction: row;
+
+  flex-basis: calc(100% / 2 - 8rem);
+  justify-content: space-around;
+
+
+
 }
 
 .title  {
