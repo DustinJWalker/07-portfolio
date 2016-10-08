@@ -8,3 +8,21 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'hero';
 @import 'main';
 @import 'footer';
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .full-page  {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+@media only screen
+  and (min-device-width: 400px)
+  and (max-device-width: 767px) {
+    .full-page  {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+  }

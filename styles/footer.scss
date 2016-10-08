@@ -1,14 +1,18 @@
 // footer
+
 .sticky-footer {
+  min-height: 6rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+   background: papayawhip;
   background: #333;
-  // color: white;
+   color: white;
   overflow: auto;
 }
 
-
 .footer-links {
-  list-style-type: none;
-}
+
+
+  }
