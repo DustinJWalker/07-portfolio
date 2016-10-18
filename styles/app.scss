@@ -8,6 +8,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'hero';
 @import 'main';
 @import 'footer';
+$c-gutter = margin: 1rem;
 
 @media only screen
   and (min-device-width: 768px)
@@ -23,6 +24,6 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
     .full-page  {
       display: flex;
       flex-direction: column;
-      flex-wrap: wrap;n
+      flex-wrap: wrap;
     }
   }
