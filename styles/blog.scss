@@ -28,9 +28,18 @@ body {
   color: white;
   /*float: right;*/
   align-items: center;
+}
 
+.nav-links,
+a {
+  padding: 0.5rem;
+  color: white;
+  text-decoration: none;
 
 }
+
+
+
 
 .nav-right {
   text-align: right;
@@ -65,11 +74,10 @@ body {
 }
 
 .img {
-  max-width: 100%;
+  max-width: 30%;
   margin-top: 0.3rem;
   border-radius: 50%;
   position: absolute;
-  z-index: auto;
   /*top: 14.5%;
   left: 3%;*/
   /*position: absolute;*/
@@ -79,10 +87,6 @@ body {
 
 .week {
   position: absolute;
-  z-index: auto;
-  /*top: 12.5%;
-  left: 17%;
-  width: 10%;*/
   width: 25%;
   margin-left: 9rem;
   background: #131f56;

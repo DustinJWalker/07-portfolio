@@ -3,6 +3,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  height: 3rem;
   padding: 0.5rem 2rem;
   background: #131f56;
   color: #eee;
@@ -13,9 +14,12 @@
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
-
 }
 
-.nav-title  {
-  z-index: 3;
+.nav-links,
+a {
+  padding: 0.5rem;
+  color: white;
+  text-decoration: none;
+
 }

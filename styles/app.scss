@@ -8,6 +8,16 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'hero';
 @import 'main';
 @import 'footer';
+@import 'city';
+
+.nav-links,
+a {
+  padding: 0.5rem;
+  color: white;
+  text-decoration: none;
+
+}
+
 
 
 @media only screen
