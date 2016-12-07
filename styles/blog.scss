@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 2rem 0 2rem;
+  margin: 0 2rem;
 }
 
 .auth__name {
@@ -38,24 +38,17 @@ a {
 
 }
 
-
-
-
-.nav-right {
-  text-align: right;
-}
-
 .container {
   /*grow up to 65rem*/
   max-width: 70rem;
   /*center if there is width left*/
   /*margin: auto;*/
-  margin: 0 4rem  0  8rem;
+  margin: 0 4rem 0 8rem;
 }
 
 .card {
   /*width: calc(100% / 2 - 1rem - 10rem);*/
-  box-shadow: .2rem .2rem .4rem;
+  box-shadow: 0.2rem 0.2rem 0.4rem;
   float: left;
   max-width: 25rem;
   position: relative;
@@ -66,7 +59,7 @@ a {
   text-align: center;
   background: #c64b25;
   padding-top: 5rem;
-  padding-bottom: 5rem:
+  padding-bottom: 5rem;
 }
 
 .post {
@@ -83,7 +76,6 @@ a {
   /*position: absolute;*/
   margin-left: -3rem;
 }
-
 
 .week {
   position: absolute;
